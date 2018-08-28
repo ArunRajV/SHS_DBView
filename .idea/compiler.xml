@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shs_dbview" />
+        <module name="SHS_DBView" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SHS_DBView" target="1.5" />
       <module name="shs_dbview" target="1.5" />
     </bytecodeTargetLevel>
   </component>
